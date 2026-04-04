@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explora Nativa - Jardín Botánico Selva Misionera</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/explora-nativa/favicon.svg" />
+
+    <!-- Open Graph / compartir en redes -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Explora Nativa — Jardín Botánico Selva Misionera" />
+    <meta property="og:description" content="Recorrido virtual por las especies nativas de la Selva Misionera en el Jardín Botánico de la UNaM. Conocé su historia, sus saberes guaraníes y explorá el sendero interactivo." />
+    <meta property="og:image" content="/images/og-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="es_AR" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Explora Nativa — Jardín Botánico Selva Misionera" />
+    <meta name="twitter:description" content="Recorrido virtual por las especies nativas de la Selva Misionera en el Jardín Botánico de la UNaM." />
+    <meta name="twitter:image" content="/images/og-preview.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'jungle-dark': '#064e3b', // emerald-900
+              'jungle-mid': '#059669', // emerald-600
+              'jungle-light': '#a7f3d0', // emerald-200
+              'earth-dark': '#451a03', // amber-950
+              'earth-mid': '#92400e', // amber-700
+              'cream': '#f5f5f4', // stone-100
+              'stone-850': '#1c1917', // dark gray
+              'stone-950': '#0c0a09', // darker gray
+            },
+            fontFamily: {
+              serif: ['Merriweather', 'serif'],
+              sans: ['Lato', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+      .transform-style-3d {
+        transform-style: preserve-3d;
+      }
+      .backface-hidden {
+        backface-visibility: hidden;
+      }
+      .rotate-y-180 {
+        transform: rotateY(180deg);
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/explora-nativa/assets/index-myODZyCu.js"></script>
+</head>
+  <body class="bg-stone-950 text-stone-200 font-sans antialiased selection:bg-jungle-mid selection:text-white">
+    <div id="root"></div>
+</body>
+</html>
