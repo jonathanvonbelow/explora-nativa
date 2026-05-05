@@ -477,7 +477,7 @@ const Community: React.FC = () => {
           <p>Autora: <span className="text-stone-200">Melisa Jeanet Vega</span></p>
           <p>Director: <span className="text-stone-200">Mgter. Aníbal Rossi</span> (Universidad Nacional de Rosario)</p>
           <p>Co-director: <span className="text-stone-200">Dr. Luis Ritter</span> (Facultad de Ciencias Forestales — UNaM)</p>
-          <p>WebDeveloper: <span className="text-stone-200">Dr. Jonathan von Below</span></p>
+          <p>WebDeveloper: <span className="text-stone-200">Dr. Jonathan von Below (Facultad de Ciencias Forestales - UNaM / Fundación Bariloche)</span></p>
           <p className="mt-4 opacity-40">© 2026 Explora Nativa. Todos los derechos reservados.</p>
         </div>
 

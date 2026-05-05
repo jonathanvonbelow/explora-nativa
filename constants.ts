@@ -425,17 +425,17 @@ export const TRIVIA_DATA: TriviaQuestion[] = [
 export const SERVICES_DATA: EcosystemService[] = [
   {
     title: 'Regulación climática y calidad del aire',
-    description: 'Los árboles absorben dióxido de carbono y liberan oxígeno a través de la fotosíntesis. Pero además regulan la temperatura local: su sombra y la evapotranspiración generan un microclima más fresco. En entornos urbanos, esta función es especialmente valiosa para contrarrestar el efecto de isla de calor.',
+    description: 'Los árboles absorben dióxido de carbono y liberan oxígeno a través de la fotosíntesis, contribuyendo activamente a la regulación del clima global. Pero su acción también se siente a escala local: la sombra del dosel y la evapotranspiración de las hojas generan un microclima más fresco y húmedo, que puede reducir varios grados la temperatura del entorno inmediato. En ciudades como Eldorado, donde los espacios verdes conviven con zonas urbanizadas, esta función es especialmente valiosa para contrarrestar el efecto de isla de calor y mejorar la calidad del aire que respiramos.',
     icon: 'air'
   },
   {
     title: 'Regulación Hídrica',
-    description: 'Las raíces de los árboles actúan como esponjas que retienen el agua de lluvia, reducen la escorrentía superficial y disminuyen el riesgo de inundaciones. Además, favorecen la recarga de los acuíferos y contribuyen a mantener la provisión de agua limpia en cuencas cercanas.',
+    description: 'Las raíces de los árboles actúan como esponjas naturales: interceptan el agua de lluvia, la retienen en el suelo y reducen la velocidad con que escurre por la superficie, disminuyendo así el riesgo de inundaciones en zonas urbanas cercanas. Al mismo tiempo, favorecen la infiltración profunda que recarga los acuíferos subterráneos, fuente de agua dulce para comunidades y ecosistemas. La cobertura vegetal también filtra sedimentos y contaminantes, contribuyendo a mantener la calidad del agua en las cuencas de la región.',
     icon: 'water'
   },
   {
     title: 'Hábitat y soporte de vida',
-    description: 'La selva provee refugio, alimento y condiciones de reproducción para cientos de especies de aves, insectos, anfibios y mamíferos nativos. Esta biodiversidad no es solo un valor en sí mismo: sostiene procesos esenciales como la polinización y la dispersión de semillas, de los que depende la regeneración del bosque.',
+    description: 'La selva provee refugio, alimento y condiciones de reproducción para cientos de especies de aves, insectos, anfibios y mamíferos nativos. Cada árbol, cada epífita, cada hoja caída forma parte de una red de relaciones que sostiene la vida. Esta biodiversidad no es solo un valor en sí misma: es la base de procesos esenciales como la polinización, la dispersión de semillas y el reciclaje de nutrientes, sin los cuales el bosque no podría regenerarse. Conservar un espacio como el Jardín Botánico es también preservar estas alianzas invisibles que mantienen el equilibrio del ecosistema.',
     icon: 'bio'
   }
 ];

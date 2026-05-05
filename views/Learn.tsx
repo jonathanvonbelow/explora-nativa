@@ -76,7 +76,7 @@ const Learn: React.FC = () => {
 
         <div className="grid md:grid-cols-3 gap-5 mb-6">
           {[
-            { valor: '2 ha', etiqueta: 'Superficie del predio', sub: 'dentro del campus de la FCF – UNaM' },
+            { valor: '1 ha', etiqueta: 'Superficie del predio', sub: 'dentro del campus de la FCF – UNaM' },
             { valor: '70+', etiqueta: 'Especies arbóreas nativas', sub: 'de la selva paranaense' },
             { valor: '200+', etiqueta: 'Especies vegetales', sub: 'de diversos sectores del ecosistema' },
           ].map(({ valor, etiqueta, sub }) => (
@@ -278,7 +278,14 @@ const Learn: React.FC = () => {
                       #{species.mapNumber}
                     </span>
                     <span className="font-bold text-white">{species.commonName}</span>
-                    <span className="text-stone-500 text-sm italic hidden sm:inline">{species.scientificName}</span>
+                    <span className="text-stone-500 text-sm hidden sm:inline">
+                      {(() => {
+                        const w = species.scientificName.split(' ');
+                        const sci = w.slice(0, 2).join(' ');
+                        const auth = w.slice(2).join(' ');
+                        return <><em>{sci}</em>{auth ? ` ${auth}` : ''}</>;
+                      })()}
+                    </span>
                   </div>
                   <ChevronDown
                     size={18}
