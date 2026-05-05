@@ -38,7 +38,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
             Explora Nativa
           </h1>
           <p className="text-base md:text-lg text-stone-300 mb-10 max-w-3xl mx-auto font-light drop-shadow-md leading-relaxed">
-            Explora nativa propone la creación de un recorrido digital interactivo con el fin de visibilizar la riqueza de la flora presente en el Jardín Botánico Selva Misionera de Eldorado, Misiones. Este espacio de 2 hectáreas, perteneciente a la Facultad de Ciencias Forestales de la Universidad Nacional de Misiones, alberga una valiosa colección de especies nativas pero su acceso al público es limitado.
+            Un recorrido digital interactivo para visibilizar la riqueza de la flora presente en el Jardín Botánico Selva Misionera de Eldorado, Misiones. Este espacio de 1 hectárea, perteneciente a la Facultad de Ciencias Forestales de la Universidad Nacional de Misiones, alberga una valiosa colección de especies nativas.
           </p>
           <button 
             onClick={() => onNavigate('map')}
@@ -76,11 +76,8 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-serif font-bold text-jungle-light mb-6">Democratizando el acceso a nuestra naturaleza</h2>
-            <p className="text-lg text-stone-400 leading-relaxed mb-6">
-              Una experiencia inmersiva que te permitirá explorar la flora del Jardín Botánico "Selva Misionera" de la Facultad de Ciencias Forestales de la UNaM para poner en valor la importancia del cuidado del bosque y de los servicios ecosistémicos que provee.
-            </p>
             <p className="text-lg text-stone-400 leading-relaxed">
-              A través de la tecnología, buscamos conectar a la comunidad con las especies nativas, fomentando la conservación mediante el conocimiento.
+              Esta iniciativa de divulgación científica, emplea la tecnología como un puente para superar las limitaciones del acceso al Jardín. A través de esta propuesta innovadora y accesible, se transforma el conocimiento técnico-científico en una experiencia atractiva, democratizando el acceso a este patrimonio natural y fomentando activamente su conservación.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">

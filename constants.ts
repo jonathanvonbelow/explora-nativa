@@ -8,16 +8,20 @@ export const SPECIES_DATA: Species[] = [
     scientificName: 'Ficus luschnathiana (Miq.) Miq.',
     family: 'Moraceae',
     shortDescription: 'El árbol estrangulador que abraza a sus vecinos.',
-    description: `Conocido científicamente como Ficus luschnathiana (Miq.) Miq., también llamado abraza palo o higuerón de monte, pertenece a la familia Moraceae. En las comunidades mbya guaraní recibe los nombres de guapo'y o hera amboaepy. Su presencia se extiende por el nordeste argentino, Paraguay, Brasil, Uruguay y Bolivia, donde forma parte de los bosques húmedos de la región.
+    description: `En lo alto del dosel, donde la luz apenas se filtra entre las copas de los árboles, comienza la historia silenciosa de esta especie.
 
-El abraza palo desarrolla una estrategia de crecimiento particular: es un árbol hemiepífito. Sus semillas, dispersadas por animales, suelen germinar sobre las ramas o troncos de otros árboles. Durante sus primeros años vive allí, como una epífita, buscando la luz que se filtra entre el dosel. Con el tiempo, desde lo alto comienzan a descender largas raíces aéreas que buscan el suelo. Cuando finalmente lo alcanzan, el árbol se establece con firmeza y continúa su crecimiento. En ese proceso, las raíces envuelven al árbol que lo hospedó, formando una trama que puede terminar por asfixiarlo.
+Con una estrategia de crecimiento particular, ya que es un árbol hemiepífito, las semillas del abraza palo son dispersadas por animales, logrando germinar sobre las ramas o troncos de otros árboles.
 
-Ya adulto, el abraza palo puede alcanzar hasta 25 metros de altura. Es un árbol de gran porte, con raíces estranguladoras que se entrelazan alrededor de los troncos. Su corteza es lisa y gris, y al cortarla libera un látex blanco, abundante y pegajoso, una característica común en muchas especies del género Ficus.
+Durante sus primeros años vive allí, como una epífita, en busca de esa luz esquiva que llega desde arriba. Con el tiempo, desde lo alto comienzan a descender largas raíces aéreas que buscan el suelo. Cuando finalmente lo alcanzan, el árbol se establece con firmeza y continúa su crecimiento. En ese proceso, las raíces envuelven al árbol que lo hospedó, formando una trama que puede terminar por asfixiarlo.
 
-Uno de los aspectos más fascinantes de este árbol ocurre a una escala casi invisible. Su reproducción depende de una relación muy específica con una pequeña avispa del género Blastophaga. Esta avispa es la encargada de polinizar sus flores, en un vínculo tan estrecho que ambos organismos dependen mutuamente para completar su ciclo de vida. Lo que comúnmente llamamos higo no es en realidad un fruto, sino una estructura llamada sícono: una infrutescencia que encierra en su interior numerosos frutos diminutos. Cuando maduran, estas estructuras son consumidas por aves y murciélagos, que luego dispersan las semillas a través de sus deyecciones.`,
+En las comunidades mbya guaraní recibe los nombres de guapo'y o hera amboaepy. Su presencia se extiende por el nordeste argentino, Paraguay, Brasil, Uruguay y Bolivia, donde forma parte de los bosques húmedos de la región.
+
+Ya adulto, el abraza palo puede alcanzar hasta 25 metros de altura. Es un árbol de gran porte, con raíces estranguladoras que se entrelazan alrededor de los troncos. Su corteza es lisa y gris, y al cortarla libera un látex blanco, abundante y pegajoso, una característica común en muchas especies del género *Ficus*.
+
+Uno de los aspectos más fascinantes de este árbol ocurre a una escala casi invisible. Su reproducción depende de una relación muy específica con una pequeña avispa del género *Blastophaga*. Esta avispa es la encargada de polinizar sus flores, en un vínculo tan estrecho que ambos organismos dependen mutuamente para completar su ciclo de vida. Lo que comúnmente llamamos higo no es en realidad un fruto, sino una estructura llamada sícono: una infrutescencia que encierra en su interior numerosos frutos diminutos. Cuando maduran, estas estructuras son consumidas por aves y murciélagos, que luego dispersan las semillas a través de sus deyecciones.`,
     morphology: 'Hasta 25 m de altura. Corteza lisa y gris. Raíces aéreas estranguladoras que descienden desde el dosel. Látex blanco abundante al cortar la corteza. Frutos en síconos consumidos por aves y murciélagos.',
     culturalUse: `Las comunidades mbya guaraní, que lo conocen como guapo'y o hera amboaepy, utilizan el látex blanco con fines medicinales, especialmente para tratar verrugas y lunares. Para ello aplican el látex directamente sobre la zona a tratar, varias veces al día, una práctica transmitida de generación en generación.`,
-    woodUse: 'No tiene aprovechamiento maderero significativo por su forma de crecimiento. Su valor principal es ecológico como alimento de fauna y como ejemplo de relaciones coevolutivas entre plantas y animales.',
+    woodUse: 'No tiene aprovechamiento maderero ya que las características de la madera no lo permiten.\n\nSu valor principal es ecológico como alimento de fauna y como ejemplo de relaciones coevolutivas entre plantas y animales.',
     mapPosition: { x: 12, y: 77 },
     photos: [
       '/images/especies/abraza-palo/1.JPG',
@@ -41,11 +45,11 @@ Uno de los aspectos más fascinantes de este árbol ocurre a una escala casi inv
     shortDescription: 'El árbol que tiñe de rosa el invierno misionero.',
     description: `En Misiones el invierno es sigiloso. Su paso apenas se hace sentir. Algunas mañanas, la niebla cubre las calles y borra el horizonte; el termómetro puede descender hasta los 2 o 3 grados, nada que un buen fuego en la chimenea o en la cocina a leña no pueda mitigar. Los días cortos y las hojas secas dejan entrever, casi sin que lo notemos, que entre julio y septiembre, las calles comienzan a teñirse de rosa. Es la selva la que anuncia, en el susurro leve del frío, que es tiempo del Lapacho.
 
-La especie Handroanthus heptaphyllus, de la familia Bignoniaceae, fue declarada en 2006 Monumento Natural de la provincia de Misiones. Y no es casual: es uno de esos árboles capaces de transformar por completo el paisaje. La especie está distribuida en el noroeste argentino, pero en Misiones encuentra un escenario donde su floración se vuelve un espectáculo colectivo. Sus flores tubulares y acampanadas estallan en distintas intensidades de rosa, desde tonos suaves hasta fucsias vibrantes, cubriendo veredas, plazas y rutas.
+Fue declarada en 2006 Monumento Natural de la provincia de Misiones ya que es uno de esos árboles capaces de transformar por completo el paisaje. La especie está distribuida en el noroeste argentino, pero en la provincia misionera encuentra un escenario donde su floración se vuelve un espectáculo colectivo. Sus flores tubulares y acampanadas estallan en distintas intensidades de rosa, desde tonos suaves hasta fucsias vibrantes, cubriendo veredas, plazas y rutas.
 
 Su calendario no es azaroso. El lapacho es una especie fotoperiódica: responde a la duración del día y a los cambios en la luz que trae el invierno. Cuando las jornadas comienzan a alargarse y la luminosidad cambia, el árbol activa su floración. Antes incluso de que broten las nuevas hojas, las ramas desnudas se cargan de flores.
 
-Imponente, puede alcanzar hasta 30 metros de altura y un tronco de 1,30 metros de diámetro. Su porte es majestuoso, pero su mayor gesto es efímero: unas pocas semanas en que la selva y la ciudad se vuelven escenario de un mismo acontecimiento. Después, las flores caen y forman alfombras rosadas que anuncian que el ciclo sigue, que la luz cambia, que la vida —en Misiones— siempre encuentra la forma de florecer.`,
+Imponente, puede alcanzar hasta 30 metros de altura y un tronco de 1,30 metros de diámetro. Su porte es majestuoso, pero su mayor gesto es efímero. Son pocas las semanas en que la selva y la ciudad se vuelven escenario de un mismo acontecimiento. Después, las flores caen y forman alfombras rosadas que anuncian que el ciclo sigue, que la luz cambia, que la vida en esta tierra colorada siempre encuentra la forma de florecer.`,
     morphology: 'Hasta 30 m de altura, tronco de 1,30 m de diámetro. Hojas digitadas, caducifolias. Flores tubulares acampanadas de color rosa intenso a fucsia, que aparecen antes que las hojas nuevas. Especie fotoperiódica.',
     culturalUse: `Para la cosmovisión guaraní, el florecimiento del lapacho se vincula con el Arý Pyahu (tiempo nuevo o año nuevo guaraní). Este momento marca el inicio de la siembra y es un período para agradecer a Ñanderuvusú (dios) por las cosechas y la vida. Fue declarado Monumento Natural de Misiones en 2006.`,
     woodUse: 'Una de las maderas más duras y resistentes a la intemperie de la selva misionera. Históricamente empleada en construcción, pisos, durmientes de vías y elementos sometidos a la humedad. La decocción de su corteza tiene usos medicinales tradicionales.',
@@ -71,7 +75,9 @@ Imponente, puede alcanzar hasta 30 metros de altura y un tronco de 1,30 metros d
     shortDescription: 'El ceibo misionero que enciende la selva con flores coral.',
     description: `En los montes húmedos de Misiones, cuando el verde parece no tener matices, de pronto estalla el coral. Es el tiempo del ceibo misionero, también llamado ceibo de monte o bituqueiro, un árbol que enciende la selva con racimos de flores intensas y atrae, como un faro, a aves y polinizadores.
 
-Su nombre científico es Erythrina falcata Benth. y pertenece a la familia Fabaceae, la misma que integra Erythrina crista-galli, la especie declarada Flor Nacional Argentina por decreto en 1942. Son parientes, pero tienen diferencias: mientras la flor nacional suele asociarse a riberas y paisajes pampeanos con una altura que no supera los 12 metros, el ceibo misionero crece en ambientes selvícolas y húmedos, donde puede alcanzar hasta 30 metros de altura y un tronco de 80 centímetros de diámetro. Sus flores también son distintas: Erythrina crista-galli tiene flores que simulan la cresta de un gallo, mientras que la Erythrina falcata Benth. tiene forma de media luna.
+Su nombre científico es *Erythrina falcata* Benth. y pertenece a la familia Fabaceae, la misma que integra *Erythrina crista-galli*, la especie declarada Flor Nacional Argentina por decreto en 1942. Son parientes, pero tienen algunas diferencias. La flor nacional suele asociarse a riberas y paisajes pampeanos con una altura que no supera los 12 metros, en tanto que el ceibo misionero crece en ambientes selvícolas y húmedos, donde puede alcanzar hasta 30 metros de altura y un tronco de 80 centímetros de diámetro.
+
+Sus flores también son distintas. La *Erythrina crista-galli* tiene flores que simulan la cresta de un gallo, mientras que la *Erythrina falcata* Benth. tiene forma de media luna.
 
 El ceibo misionero se distribuye en Misiones y también en provincias como Corrientes, Jujuy, Salta y Tucumán, además de Paraguay y Brasil. Le gustan los suelos con buena disponibilidad de agua y su presencia marca claros y bordes de monte. Su madera, trabajable y liviana, ha sido utilizada para muebles, puertas, mesas y utensilios de cocina. En las ciudades, muchas veces se lo planta como ornamental: sus flores amariposadas, agrupadas en racimos llamativos de color coral, justifican esa elección. Algunas flores incluso pueden ser consumidas.`,
     morphology: 'Hasta 30 m de altura, tronco de 80 cm de diámetro. Flores amariposadas en forma de media luna, de color coral intenso, agrupadas en racimos vistosos. Especie asociada a suelos con buena disponibilidad hídrica.',
@@ -99,16 +105,16 @@ El ceibo misionero se distribuye en Misiones y también en provincias como Corri
     shortDescription: 'El helecho medicinal que crece en la penumbra fresca de la selva.',
     description: `En la penumbra fresca de la selva, allí donde la humedad se queda suspendida en el aire y las rocas guardan el agua de las lluvias, crece un helecho delicado que parece hecho de filigrana verde. Es el culantrillo del monte.
 
-Su nombre científico es Adiantum pseudotinctum y pertenece a la familia Pteridaceae. En el nordeste argentino se lo conoce como culantrillo o culantrillo ka'aguy, y forma parte del mundo silencioso de los helechos, plantas antiguas que habitan la Tierra desde mucho antes que los árboles con flores.
+Su nombre científico es *Adiantum pseudotinctum* y pertenece a la familia Pteridaceae. En el nordeste argentino se lo conoce como culantrillo o culantrillo ka'aguy, y forma parte del mundo silencioso de los helechos, plantas antiguas que habitan la tierra desde mucho antes que las plantas con flores.
 
 Este helecho es una hierba perenne, lo que significa que su ciclo de vida puede extenderse durante varias temporadas. Sus raíces largas y rastreras se desplazan sobre la superficie o se introducen en grietas y pequeños espacios del suelo y de las rocas, permitiéndole formar colonias que se expanden lentamente en los ambientes húmedos del bosque.
 
 En el caso de Adiantum pseudotinctum, su especialización la convierte en una especie litófita o saxícola, capaz de colonizar grietas en superficies rocosas donde la acumulación de nutrientes es escasa, pero la humedad permanece constante. Por su sensibilidad a los cambios del entorno, el culantrillo suele considerarse también un indicador de la salud ecológica del ambiente, ya que difícilmente prospera en sitios degradados o contaminados.
 
 Estudios fitoquímicos realizados en especies del género Adiantum han identificado más de 130 compuestos bioactivos, entre ellos flavonoides y otras moléculas que participan en las respuestas fisiológicas de la planta y que explican muchos de los efectos observados en la medicina tradicional.`,
-    morphology: 'Hierba perenne de porte delicado. Frondes finamente divididas en pinnulas con bordes dentados. Raíces largas y rastreras, litófita/saxícola. Crece en ambientes sombríos y húmedos del sotobosque.',
+    morphology: 'Hierba perenne de porte delicado. Frondes (hojas) finamente divididas en pinnulas con bordes dentados. Raíces largas y rastreras, litófita/saxícola. Crece en ambientes sombríos y húmedos del sotobosque.',
     culturalUse: `En la medicina popular es ampliamente utilizado: preparado como infusión o jarabe para aliviar tos, bronquitis y congestión mucosa (propiedades expectorantes y demulcentes). Se le atribuyen efectos sudoríficos para regular la temperatura en estados febriles, propiedades diuréticas y función emenagoga para regular el ciclo menstrual. Estas propiedades están respaldadas por más de 130 compuestos bioactivos identificados en el género Adiantum.`,
-    woodUse: 'Al ser un helecho, no tiene aplicaciones madereras. Su valor es ecológico (indicador de salud del ecosistema) y medicinal.',
+    woodUse: 'Al ser un helecho, no tiene aplicaciones madereras. Su valor es ecológico (indicador de salud del ecosistema) y medicinal. Ornamental.',
     mapPosition: { x: 21.5, y: 43 },
     photos: [
       '/images/especies/culantrillo/1.JPG',
@@ -130,9 +136,11 @@ Estudios fitoquímicos realizados en especies del género Adiantum han identific
     scientificName: 'Nectandra lanceolata Nees & Mart.',
     family: 'Lauraceae',
     shortDescription: 'Copa como un gran paraguas verde con hojas que envejecen rojizas.',
-    description: `Su nombre científico es Nectandra lanceolata Nees & Mart. y pertenece a la familia Lauraceae, el mismo grupo botánico que reúne a los laureles y otras especies aromáticas del bosque subtropical. En Paraguay se lo conoce como Ayu'i morotí, mientras que en Brasil recibe el nombre de canela amarela.
+    description: `Entre los verdes profundos del monte, hay un árbol que se distingue sin necesidad de imponerse. Su copa amplia se abre como un paraguas sobre el dosel, y en ciertos momentos del año, sus hojas se tiñen de tonos rojizos que rompen la monotonía de la selva.
 
-Este árbol puede alcanzar entre 15 y 25 metros de altura, con una copa amplia y redondeada que se abre sobre el monte como un gran paraguas verde. Su corteza gris blanquecina, rugosa y escamosa, contrasta con el follaje oscuro que la cubre. Cuando las hojas envejecen, adquieren tonos rojizos, un cambio de color que destaca entre el verde predominante de la selva.
+El laurel amarillo pertenece a la familia Lauraceae, el mismo grupo botánico que reúne a los laureles y otras especies aromáticas del bosque subtropical. En Paraguay se lo conoce como Ayu'i morotí, mientras que en Brasil recibe el nombre de canela amarela.
+
+Este árbol puede alcanzar entre 15 y 25 metros de altura. Su corteza gris blanquecina, rugosa y escamosa, contrasta con el follaje oscuro que la cubre.
 
 En Argentina crece de forma espontánea principalmente en Misiones y Formosa, donde forma parte del mosaico de especies del bosque atlántico. Sus frutos pequeños y carnosos son consumidos por diversas aves, que al desplazarse por el monte dispersan sus semillas.
 
@@ -159,15 +167,9 @@ El laurel amarillo también tiene un papel importante en la restauración de amb
     scientificName: 'Jacaratia spinosa (Aubl.) A. DC.',
     family: 'Caricaceae',
     shortDescription: 'El único árbol comestible del mundo, pariente del mamón.',
-    description: `Se lo conoce como el único árbol comestible en el mundo. Su nombre científico es Jacaratia spinosa y pertenece a la familia Caricaceae, la misma del mamón o papaya. También se lo conoce como papayón o mamoeiro-do-mato en Brasil. Se distribuye en selvas tropicales y subtropicales de América, desde Brasil, Paraguay y Argentina hasta Bolivia, Ecuador, Panamá, Costa Rica y Nicaragua.
+    description: `En la selva hay árboles que no solo ofrecen sombra y refugio, sino también alimento. Este es el caso del *Jacaratia*.
 
-En el monte puede alcanzar entre 10 y 20 metros de altura, con un tronco claro y ramas provistas de espinas que lo distinguen entre la vegetación. Sus frutos recuerdan al mamón: carnosos, aromáticos y muy apreciados por la fauna del bosque.
-
-En los últimos años, el interés científico por esta especie ha crecido. Estudios sobre el perfil químico de Jacaratia spinosa revelan una riqueza notable en micronutrientes y enzimas, lo que ha llevado a considerarla como un posible superalimento.
-
-El yacaratiá guarda otra singularidad: sus tejidos contienen una gran cantidad de agua, por lo que su tronco no desarrolla una madera dura como la mayoría de los árboles. En lugar de ello posee una estructura blanda y fibrosa. Esta característica despertó el interés del ingeniero forestal Roberto Pascutti, docente de la Facultad de Ciencias Forestales de la UNaM, quien a comienzos de la década de 1990 inició investigaciones inspiradas en antiguos manuscritos de las misiones jesuíticas. Durante cinco años, Pascutti estudió el yacaratiá en la selva y en laboratorio hasta desarrollar un método que permite transformar su fibra vegetal en un alimento apto para la cocina contemporánea, con preparaciones tanto dulces como saladas.
-
-Más allá de sus usos culturales y alimentarios, el yacaratiá cumple también un papel ecológico importante. Es una especie pionera de crecimiento rápido, capaz de establecerse en áreas abiertas o degradadas.`,
+Se lo conoce como el único árbol con madera comestible en la región, pertenece a la familia Caricaceae, la misma del mamón o papaya. También se lo conoce como papayón o mamoeiro-do-mato en Brasil. Se distribuye en selvas tropicales y subtropicales de América, desde Brasil, Paraguay y Argentina hasta Bolivia, Ecuador, Panamá, Costa Rica y Nicaragua.`,
     morphology: 'Entre 10 y 20 m de altura. Tronco claro y blando con estructura fibrosa rica en agua. Ramas con espinas características. Frutos carnosos y aromáticos similares al mamón. Especie pionera de crecimiento rápido.',
     culturalUse: `Mucho antes de que la ciencia explicara que el fruto fresco libera látex y enzimas proteolíticas, las comunidades guaraníes ya habían desarrollado una forma de procesarlo: lo cocinan bajo la ceniza caliente del fuego. El calor suave y constante de las brasas neutraliza estas sustancias sin destruir los azúcares y nutrientes, transformando el fruto en un dulce natural muy apreciado, especialmente por los niños. La estructura blanda del tronco también permite el desarrollo de larvas comestibles de curculiónidos, un recurso rico en proteínas. En la tradición guaraní existe una creencia: si un hombre que está por ser padre derriba un ejemplar de yacaratiá, su hijo podría nacer con los dedos deformes, semejantes a los brotes retorcidos que emite el tronco antes de descomponerse.`,
     woodUse: 'Tronco blando y fibroso sin valor maderero convencional. Sin embargo, investigaciones de la UNaM desarrollaron un método para transformar su fibra vegetal en alimento apto para cocina contemporánea (dulce y salado).',
@@ -193,14 +195,14 @@ Más allá de sus usos culturales y alimentarios, el yacaratiá cumple también 
     shortDescription: 'El árbol pionero de hojas gigantes que regenera el monte.',
     description: `Siempre verde y de crecimiento rápido, este árbol puede alcanzar entre 10 y 18 metros de altura. Crece en las selvas de Brasil, Paraguay y Argentina, donde las comunidades mbya guaraní lo conocen como ambay guachu. Suele encontrarse en el monte alto, pero también aparece en márgenes de arroyos, bordes de senderos y capueras, esos espacios donde la selva se abre y comienza lentamente a regenerarse.
 
-El ambay (Cecropia pachystachya), de la familia Urticaceae, es una de las especies que encuentran oportunidad en los paisajes transformados. Allí donde hubo desmontes o disturbios, su presencia marca el inicio de un nuevo ciclo del bosque. Su tronco, de color gris claro y superficie lisa, se eleva sostenido por raíces zancudas que le brindan estabilidad en suelos húmedos y sueltos.
+El ambay, de la familia Urticaceae, es una de las especies que encuentran oportunidad en los paisajes transformados. Allí donde hubo desmontes o disturbios, su presencia marca el inicio de un nuevo ciclo del bosque. Su tronco, de color gris claro y superficie lisa, se eleva sostenido por raíces zancudas que le brindan estabilidad en suelos húmedos y sueltos.
 
 Sus hojas son inconfundibles. Grandes y palmatipartidas, se abren como una mano extendida hacia la luz. Entre ellas cuelgan largos racimos de flores de color verde claro que, con el tiempo, darán lugar a frutos muy apreciados por aves y murciélagos. Son estos animales quienes dispersan sus semillas, ayudando a que el ambay colonice nuevos espacios del monte.
 
 Así, entre senderos, arroyos y claros del monte, el ambay crece como un puente entre la dinámica de la selva y los saberes de quienes la habitan.`,
     morphology: 'Entre 10 y 18 m de altura. Tronco gris claro con raíces zancudas. Hojas palmatipartidas muy grandes (hasta 50 cm de diámetro). Madera blanda y liviana. Florece y fructifica todo el año.',
-    culturalUse: `En la medicina popular es ampliamente conocido por sus propiedades para aliviar enfermedades respiratorias: se lo utiliza como antitusivo y expectorante. Las comunidades guaraníes también han desarrollado distintos usos para la planta. Para el dolor de dientes, hierven sus raíces y utilizan el líquido en enjuagues. Para el dolor de vista, machacan el fruto, lo mezclan con agua fría y lo aplican sobre el rostro.`,
-    woodUse: 'Madera blanda y liviana. Puede utilizarse como leña, para la producción de pulpa y papel, o incluso como sustituto de la madera de balsa en artesanías y construcciones livianas.',
+    culturalUse: `En la medicina popular es ampliamente conocido por sus propiedades para aliviar enfermedades respiratorias: se utilizan sus cogollos (brotes tiernos) como antitusivo y expectorante. Las comunidades guaraníes también han desarrollado distintos usos para la planta. Para el dolor de dientes, hierven sus raíces y utilizan el líquido en enjuagues. Para el dolor de vista, machacan el fruto, lo mezclan con agua fría y lo aplican sobre el rostro.`,
+    woodUse: 'Madera blanda y liviana. No posee buenas características para uso como leña. Muy utilizada en la medicina tradicional.',
     mapPosition: { x: 58, y: 31 },
     photos: [
       '/images/especies/ambay/1.JPG',
@@ -221,7 +223,9 @@ Así, entre senderos, arroyos y claros del monte, el ambay crece como un puente 
     scientificName: 'Enterolobium contortisiliquum (Vell.) Morong',
     family: 'Fabaceae',
     shortDescription: 'El gigante del monte con frutos en forma de oreja humana.',
-    description: `Considerado uno de los gigantes del monte, puede alcanzar hasta 30 metros de altura y desarrollar un tronco que supera 1,6 metros de diámetro. Su nombre científico es Enterolobium contortisiliquum y pertenece a la familia Fabaceae. Su tronco, robusto y claro, presenta pequeñas aberturas llamadas lenticelas. A simple vista parecen diminutos poros en la corteza, pero cumplen una función vital: permiten el intercambio de gases entre los tejidos internos del árbol y la atmósfera.
+    description: `Considerado uno de los gigantes del monte, puede alcanzar hasta 30 metros de altura y desarrollar un tronco que supera 1,6 metros de diámetro.
+
+Pertenece a la familia Fabaceae y su tronco, robusto y claro, presenta pequeñas aberturas llamadas lenticelas que a simple vista parecen diminutos poros en la corteza, pero cumplen una función vital: permiten el intercambio de gases entre los tejidos internos del árbol y la atmósfera.
 
 El timbó no solo destaca por su tamaño, sino también por el movimiento de vida que genera a su alrededor. Sus flores atraen a numerosos insectos polinizadores, y la presencia de estos insectos convoca a aves insectívoras que encuentran allí alimento. Más tarde llegan los frutos, que son consumidos por tapires y pecaríes, entre otros mamíferos, quienes colaboran en la dispersión de sus semillas.
 
@@ -230,7 +234,7 @@ Esta especie posee una amplia distribución en Sudamérica. En Argentina se encu
 Uno de los rasgos más curiosos del timbó está en sus frutos. Su forma curvada y aplanada recuerda a una oreja humana, motivo por el cual también se lo conoce como "oreja de mono". El árbol florece entre octubre y diciembre, y sus frutos maduran entre enero y abril, aunque muchas veces permanecen colgando de las ramas hasta mediados del invierno.`,
     morphology: 'Hasta 30 m de altura, tronco que supera 1,6 m de diámetro. Lenticelas visibles en la corteza clara. Frutos leguminosos curvados y aplanados en forma de oreja (conocidos como "oreja de mono"). Florece oct-dic, fructifica ene-abr.',
     culturalUse: `Una antigua leyenda guaraní cuenta que un cacique llamado Saguá tenía una hija, Tacuaré, a quien amaba profundamente. Cuando ella se enamoró de un cacique de otra tribu y se marchó, Saguá comenzó a buscarla por toda la selva. Para intentar escuchar sus pasos, apoyaba su oído sobre la tierra. Así siguió durante mucho tiempo, hasta que enfermó y murió con la oreja apoyada en el suelo. Cuando su pueblo lo encontró, dicen que su oído había echado raíces y de allí nació el timbó, cuyos frutos conservan la forma de aquella oreja que nunca dejó de escuchar.`,
-    woodUse: 'Madera liviana y resistente al agua. Ha sido empleada para fabricar envases, colmenas, persianas y diferentes partes de muebles. Las hojas, la corteza y los frutos contienen saponinas utilizadas tradicionalmente como jabón natural.',
+    woodUse: 'Madera liviana y resistente al agua. En la región históricamente su madera fue empleada para construir pequeñas balsas (botes) por presentar una madera liviana y durable. Las hojas, la corteza y los frutos contienen saponinas utilizadas tradicionalmente como jabón natural.',
     mapPosition: { x: 65, y: 70.5 },
     photos: [
       '/images/especies/timbo/1.JPG',
@@ -253,14 +257,14 @@ Uno de los rasgos más curiosos del timbó está en sus frutos. Su forma curvada
     shortDescription: 'La palmera sagrada guaraní, sostén y símbolo del monte.',
     description: `Para la mitología guaraní, el pindó no es solo una planta: es presencia sagrada, protectora y refugio de vida. Bajo su copa anidan aves, se cobijan insectos y descansan quienes caminan el monte. Es sostén y símbolo.
 
-La palmera Syagrus romanzoffiana, de la familia Arecaceae, puede elevarse entre 10 y 15 metros, es estilizada y firme. Se reproduce con abundancia y por eso también es cultivada en pueblos y ciudades, donde aporta su silueta tropical a veredas y plazas. En estado silvestre, se distribuye en el nordeste argentino, Paraguay, Uruguay y el sur de Brasil, formando parte del paisaje característico de la región.
+Esta palmera, de la familia Arecaceae, puede elevarse entre 10 y 15 metros, es estilizada y firme. Se reproduce con abundancia y por eso también es cultivada en pueblos y ciudades, donde aporta su silueta tropical a veredas y plazas. En estado silvestre, se distribuye en el nordeste argentino, Paraguay, Uruguay y el sur de Brasil, formando parte del paisaje característico de la región.
 
 Sus frutos, ovoides y de un naranja intenso, maduran en racimos generosos. Son comestibles y dulces, y su dispersión depende de otros habitantes del monte: aves y mamíferos que los consumen y transportan sus semillas. Este tipo de dispersión se denomina zoocoria, y es como una alianza silenciosa entre plantas y animales para asegurar la continuidad de la especie.
 
-Algo curioso de esta especie es una práctica ancestral registrada desde fines del siglo XIX que aún persiste en algunas aldeas: promover el desarrollo de larvas de escarabajo en el interior del tronco. Semanas después, se recolecta el "ychá", nombre con el que los guaraníes designan a estas larvas de coleópteros. Ricas en proteínas y grasas, las larvas se cocinan en su propio aceite y son compartidas y consumidas en comunidad.`,
-    morphology: 'Entre 10 y 15 m de altura. Estípite (tronco) grisáceo y anillado. Hojas pinnadas de hasta 4 m. Frutos ovoides de naranja intenso en racimos generosos. Especie estilizada, muy cultivada en zonas urbanas.',
-    culturalUse: `Para los pueblos guaraníes, el pindó es alimento, medicina y materia prima. De su interior, antiguamente, se obtenía una harina con la que se elaboraban panes. El cogollo se emplea para el dolor de vista y de cabeza, y el guapí (sustancia parecida a una cera extraída de la semilla) para fortalecer la memoria. Las raíces en mate favorecen la fertilidad. La práctica ancestral de criar larvas ychá dentro del tronco derrumbado es un recurso proteico aún presente en algunas aldeas.`,
-    woodUse: 'El tronco fibroso se usa para postes y construcciones rústicas. Sus hojas y fibras han sido utilizadas en construcciones y techumbres. Las larvas ychá criadas en el tronco constituyen un alimento tradicional rico en proteínas y grasas.',
+Algo curioso de esta especie es una práctica ancestral registrada desde fines del siglo XIX que aún persiste en algunas aldeas: promover el desarrollo de larvas de escarabajo en el interior del tronco. Semanas después, se recolecta el "ycho", nombre con el que los guaraníes designan a estas larvas de coleópteros. Ricas en proteínas y grasas, las larvas se cocinan en su propio aceite y son compartidas y consumidas en comunidad.`,
+    morphology: 'Entre 10 y 15 m de altura. Estípite (tronco único sin ramas) grisáceo y anillado. Hojas pinnatisectas de hasta 4 m. Frutos ovoides de naranja intenso en racimos generosos. Especie estilizada, muy cultivada en zonas urbanas.',
+    culturalUse: `Para los pueblos guaraníes, el pindó es alimento, medicina y materia prima. De su interior, antiguamente, se obtenía una harina con la que se elaboraban panes. El cogollo se emplea para el dolor de vista y de cabeza, y el guapí (sustancia parecida a una cera extraída de la semilla) para fortalecer la memoria. Las raíces en mate favorecen la fertilidad. La práctica ancestral de criar larvas ycho dentro del tronco derrumbado es un recurso proteico aún presente en algunas aldeas.`,
+    woodUse: 'El tronco fibroso se usa para postes y construcciones rústicas. Sus hojas y fibras han sido utilizadas en construcciones y techumbres. Las larvas ycho criadas en el tronco constituyen un alimento tradicional rico en proteínas y grasas.',
     mapPosition: { x: 55, y: 35 },
     photos: [
       '/images/especies/pindo/1.JPG',
@@ -283,13 +287,15 @@ Algo curioso de esta especie es una práctica ancestral registrada desde fines d
     scientificName: 'Thaumatophyllum bipinnatifidum (Schott ex Endl.) Sakur., Calazans & Mayo',
     family: 'Araceae',
     shortDescription: 'La hemiepífita de hojas espectaculares que sube hacia la luz.',
-    description: `Conocido científicamente como Thaumatophyllum bipinnatifidum, pertenece a la familia Araceae, y es muy conocido por su valor ornamental. En Misiones recibe el nombre de güembé, mientras que en Paraguay se lo conoce como guembepi. Su distribución natural abarca el nordeste argentino, Paraguay, Bolivia y Brasil, donde crece en ambientes húmedos, tanto en bosques como en claros y bordes de monte.
+    description: `Entre la humedad del monte y la sombra espesa del sotobosque, hay plantas que buscan la luz con estrategias tan silenciosas como sorprendentes.
 
-Esta planta desarrolla una estrategia particular para alcanzar la luz en la selva: es una hemiepífita. Muchas veces germina sobre ramas o troncos de otros árboles y desde allí comienza su crecimiento. Con el tiempo, emite raíces que descienden hasta el suelo para anclarse y absorber nutrientes, mientras sus hojas se expanden hacia los espacios luminosos del dosel.
+El guembé pertenece a la familia Araceae y es muy valorado por su uso ornamental. En Paraguay se lo conoce como guembepi. Su distribución natural abarca el nordeste argentino, Paraguay, Bolivia y Brasil, donde crece en ambientes húmedos, tanto en bosques como en claros y bordes de monte.
 
-El güembé puede alcanzar hasta 1,5 metros de altura, con un tallo arborescente que llega a medir alrededor de 18 centímetros de diámetro. Sus hojas son grandes y llamativas: presentan una forma ovalada, semejante a un corazón, y están profundamente divididas en pequeños gajos o pinnas con bordes dentados. Esta estructura amplia le permite captar mejor la luz filtrada del bosque.
+Pero su forma de crecer es lo que más llama la atención. Al ser una hemiepífita, esta planta desarrolla una estrategia particular para alcanzar la luz en la selva. Muchas veces germina sobre ramas o troncos de otros árboles y, desde allí, comienza su crecimiento. Con el tiempo, emite raíces que descienden hasta el suelo para anclarse y absorber nutrientes, mientras sus hojas se expanden hacia los espacios luminosos del dosel.
 
-Sus flores se organizan en una estructura característica de las aráceas llamada espádice, rodeada por una espata. Tras la floración se desarrollan frutos aromáticos y dulces que, cuando maduran, son consumidos por la fauna y también por las personas.`,
+Puede alcanzar hasta 1,5 metros de altura, con un tallo arborescente que llega a medir alrededor de 18 centímetros de diámetro. Sus hojas son grandes y llamativas: presentan una forma ovalada, semejante a un corazón, y están profundamente divididas en pequeños gajos o segmentos. Esta estructura amplia le permite captar mejor la luz filtrada del bosque.
+
+Sus flores se agrupan en una estructura típica de esta familia: un eje central llamado espádice, rodeado por una especie de hoja que lo envuelve, conocida como espata. Tras la floración se desarrollan frutos aromáticos y dulces que, cuando maduran, son consumidos por la fauna y también por las personas.`,
     morphology: 'Hasta 1,5 m de altura. Tallo arborescente de ~18 cm de diámetro. Hojas grandes con forma ovalada profundamente dividida en pinnas con bordes dentados. Flores en espádice con espata. Hemiepífita.',
     culturalUse: `En comunidades guaraníes, el fruto del güembé suele comerse crudo —entero o machacado en el mortero (angu'a)— durante los recorridos por el monte o en distintos momentos de la vida cotidiana e incluso en contextos rituales. Los usos medicinales de esta planta son conocidos desde hace casi un siglo: ya en 1931 se documentó que los indígenas canigu empleaban sus preparaciones con fines terapéuticos. Al igual que el abraza palo, comparte con el ceibo el mismo espacio panorámico del jardín.`,
     woodUse: 'No tiene aprovechamiento maderero. Su valor principal es ornamental, ecológico y alimentario (frutos). Muy utilizada en jardines y espacios verdes urbanos de todo el mundo por su follaje espectacular.',
@@ -367,10 +373,10 @@ export const TRIVIA_DATA: TriviaQuestion[] = [
   },
   {
     id: 'q9',
-    question: '¿Qué es el "ychá" en la cultura guaraní?',
+    question: '¿Qué es el "ycho" en la cultura guaraní?',
     options: ['Un tipo de miel', 'Larvas de coleópteros criadas en el tronco del Pindó', 'Una danza ritual', 'El fruto del Timbó'],
     correctAnswer: 1,
-    explanation: 'El "ychá" son larvas de coleópteros (Curculionoidea) que los guaraníes crían en el tronco derribado del Pindó. Ricas en proteínas y grasas, se cocinan en su propio aceite.'
+    explanation: 'El "ycho" son larvas de coleópteros (Curculionoidea) que los guaraníes crían en el tronco derribado del Pindó. Ricas en proteínas y grasas, se cocinan en su propio aceite.'
   },
   {
     id: 'q10',
@@ -418,18 +424,18 @@ export const TRIVIA_DATA: TriviaQuestion[] = [
 
 export const SERVICES_DATA: EcosystemService[] = [
   {
-    title: 'Aire Puro',
-    description: 'Absorben dióxido de carbono y liberan oxígeno, limpiando el aire de la ciudad.',
+    title: 'Regulación climática y calidad del aire',
+    description: 'Los árboles absorben dióxido de carbono y liberan oxígeno a través de la fotosíntesis. Pero además regulan la temperatura local: su sombra y la evapotranspiración generan un microclima más fresco. En entornos urbanos, esta función es especialmente valiosa para contrarrestar el efecto de isla de calor.',
     icon: 'air'
   },
   {
     title: 'Regulación Hídrica',
-    description: 'Sus raíces funcionan como esponjas, reteniendo agua y evitando inundaciones.',
+    description: 'Las raíces de los árboles actúan como esponjas que retienen el agua de lluvia, reducen la escorrentía superficial y disminuyen el riesgo de inundaciones. Además, favorecen la recarga de los acuíferos y contribuyen a mantener la provisión de agua limpia en cuencas cercanas.',
     icon: 'water'
   },
   {
-    title: 'Hogar de Biodiversidad',
-    description: 'Proveen refugio y alimento a cientos de aves, insectos y mamíferos nativos.',
+    title: 'Hábitat y soporte de vida',
+    description: 'La selva provee refugio, alimento y condiciones de reproducción para cientos de especies de aves, insectos, anfibios y mamíferos nativos. Esta biodiversidad no es solo un valor en sí mismo: sostiene procesos esenciales como la polinización y la dispersión de semillas, de los que depende la regeneración del bosque.',
     icon: 'bio'
   }
 ];

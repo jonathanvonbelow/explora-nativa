@@ -34,33 +34,22 @@ const Learn: React.FC = () => {
           <Sprout className="text-jungle-mid" size={26} />
           ¿Qué es un jardín botánico?
         </h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-stone-900 rounded-2xl p-6 border border-stone-800">
-            <p className="text-stone-300 leading-relaxed mb-4">
-              Un <strong className="text-white">jardín botánico</strong> es una institución científica y educativa que conserva colecciones vivas de plantas debidamente documentadas, con fines de investigación, educación, conservación y disfrute público.
-            </p>
-            <p className="text-stone-300 leading-relaxed">
-              A diferencia de un parque o plaza común, cada ejemplar está identificado con su nombre científico, origen y familia. Esto los convierte en <strong className="text-white">bancos vivos de biodiversidad</strong>: espacios donde la ciencia y la naturaleza coexisten de manera activa.
-            </p>
-          </div>
-          <div className="bg-stone-900 rounded-2xl p-6 border border-stone-800">
-            <p className="text-stone-300 leading-relaxed mb-4">
-              Los jardines botánicos cumplen funciones que van mucho más allá del paisajismo:
-            </p>
-            <ul className="space-y-2 text-sm">
-              {[
-                ['Conservación ex situ', 'Preservan especies amenazadas fuera de su hábitat natural.'],
-                ['Investigación científica', 'Estudian morfología, fenología, genética y ecología vegetal.'],
-                ['Educación ambiental', 'Forman conciencia sobre biodiversidad y servicios ecosistémicos.'],
-                ['Banco de germoplasma', 'Custodian semillas y material genético para la restauración ecológica.'],
-              ].map(([titulo, desc]) => (
-                <li key={titulo} className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-jungle-mid mt-2 shrink-0" />
-                  <span className="text-stone-300"><strong className="text-jungle-light">{titulo}:</strong> {desc}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div className="bg-stone-900 rounded-2xl p-6 border border-stone-800 space-y-4">
+          <p className="text-stone-300 leading-relaxed">
+            Los Jardines Botánicos son espacios dedicados a la conservación, estudio y exhibición de plantas nativas y exóticas. Funcionan como centros científicos que mantienen colecciones documentadas, realizan investigaciones y brindan información rigurosa sobre las especies.
+          </p>
+          <p className="text-stone-300 leading-relaxed">
+            Además, cumplen un importante rol en la protección de plantas amenazadas o en peligro de extinción, la educación ambiental y la divulgación científica.
+          </p>
+          <p className="text-stone-300 leading-relaxed">
+            También actúan como "aulas verdes" para estudiantes y como espacios de recreación y turismo, donde las personas pueden conectarse con la naturaleza.
+          </p>
+          <p className="text-stone-500 text-sm border-t border-stone-700 pt-3">
+            Fuente: Jardín Botánico y Arboretum (JBA){' '}
+            <a href="https://www.agro.unlp.edu.ar/" target="_blank" rel="noopener noreferrer" className="text-jungle-mid hover:text-jungle-light underline">
+              https://www.agro.unlp.edu.ar/
+            </a>
+          </p>
         </div>
       </div>
 
@@ -74,9 +63,15 @@ const Learn: React.FC = () => {
         {/* Destacado institucional */}
         <div className="bg-jungle-dark/40 border border-jungle-mid/30 rounded-2xl p-6 mb-6">
           <p className="text-jungle-light font-serif text-lg leading-relaxed italic">
-            "El proyecto comenzó en 1974 con fines educativos, didácticos y científicos, y está abierto a la comunidad en general."
+            "El proyecto comenzó en 1974 con fines educativos, didácticos y científicos con el objetivo de contribuir con la conservación y conocimiento de la biodiversidad florística principalmente de la Selva Paranaense de Misiones."
           </p>
           <p className="text-stone-500 text-sm mt-2">— Facultad de Ciencias Forestales, UNaM</p>
+          <p className="text-stone-600 text-xs mt-3 leading-relaxed border-t border-stone-700/50 pt-3">
+            Eibl, B. I., Lopez, M., Gonzalez, C., Dummel, C., Kuppers, G., Gonzalez, C., Hancherek, F., Holzmaisters, J., Rios, E., Melgarejo, J. L., Suarez, J., Resch, L., Benitez, M. A., Erbetta, D., Carbone, V., Dohmann, R., & Robledo, F. (s. f.). El Jardín Botánico Selva Misionera. Universidade Federal da Integração Latino-Americana (UNILA).{' '}
+            <a href="https://dspace.unila.edu.br/server/api/core/bitstreams/1643e42e-1e57-423f-95ec-7746b251aac0/content" target="_blank" rel="noopener noreferrer" className="text-jungle-mid hover:text-jungle-light underline break-all">
+              https://dspace.unila.edu.br/server/api/core/bitstreams/1643e42e-1e57-423f-95ec-7746b251aac0/content
+            </a>
+          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-5 mb-6">
@@ -124,7 +119,7 @@ const Learn: React.FC = () => {
               El JBSM desarrolla programas de educación ambiental orientados a la conservación de la biodiversidad, la concientización y la sensibilización comunitaria sobre las funciones de la selva.
             </p>
             <p className="text-stone-300 text-sm leading-relaxed mb-4">
-              Desde 2013 ejecuta proyectos de extensión universitaria, incluyendo capacitaciones en propagación de orquídeas y cursos para adultos mayores en colaboración con organismos como PAMI.
+              Desde el 2013 ejecuta distintos proyectos de extensión universitaria, visitas guiadas a establecimientos educativos, cursos de capacitación, entre otros. El Jardín Botánico Selva Misionera, forma parte de la Red Argentina de Jardínes Botánicos (RAJB).
             </p>
             <p className="text-stone-400 text-xs border-t border-stone-700 pt-3">
               Para visitar el jardín es necesario completar una solicitud con al menos 10 días de anticipación, indicando responsable, contacto y programa de interés.
@@ -137,18 +132,73 @@ const Learn: React.FC = () => {
       <div className="max-w-5xl mx-auto bg-stone-900 rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden border border-stone-800 mb-20">
         <div className="absolute top-0 right-0 w-64 h-64 bg-jungle-mid rounded-full mix-blend-overlay filter blur-[80px] opacity-20 -translate-y-1/2 translate-x-1/2 pointer-events-none" />
         <div className="relative z-10">
-          <h2 className="text-3xl font-serif font-bold text-center text-white mb-12">Servicios Ecosistémicos</h2>
-          <div className="grid md:grid-cols-3 gap-12">
+          <h2 className="text-3xl font-serif font-bold text-center text-white mb-10">Servicios Ecosistémicos</h2>
+
+          {/* 6.1 — Introducción conceptual */}
+          <div className="mb-10 space-y-4 text-stone-300 leading-relaxed text-sm md:text-base">
+            <p>
+              Los bosques como el que alberga el Jardín Botánico Selva Misionera no son simples conjuntos de árboles: son sistemas complejos que sostienen la vida humana y no humana de múltiples maneras. Para nombrar estas relaciones, la ciencia utiliza el concepto de <strong className="text-white">servicios ecosistémicos</strong>, que son los beneficios que los ecosistemas proveen a las personas.
+            </p>
+            <p>
+              En los últimos años, también se habla de <strong className="text-white">contribuciones de la naturaleza para la gente</strong> (NCP, por sus siglas en inglés), un concepto más amplio que reconoce que el vínculo entre los seres humanos y la naturaleza no es solo utilitario: incluye también valores culturales, espirituales y relacionales que no siempre se pueden medir en términos económicos.
+            </p>
+            <p>
+              Estos beneficios suelen organizarse en tres grandes grupos: los <strong className="text-white">servicios de aprovisionamiento</strong> (lo que el ecosistema provee materialmente), los <strong className="text-white">servicios de regulación</strong> (los procesos que mantienen el equilibrio del ambiente) y los <strong className="text-white">servicios culturales</strong> (los vínculos no materiales que la naturaleza genera con las comunidades).
+            </p>
+          </div>
+
+          {/* 6.2 — Tarjetas de regulación (desde SERVICES_DATA) */}
+          <div className="grid md:grid-cols-3 gap-10 mb-14">
             {SERVICES_DATA.map((service, idx) => (
               <div key={idx} className="text-center group">
                 <div className="w-24 h-24 bg-stone-800 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg border border-stone-700">
                   {getIcon(service.icon)}
                 </div>
-                <h3 className="text-xl font-bold text-stone-200 mb-3">{service.title}</h3>
-                <p className="text-stone-400 leading-relaxed">{service.description}</p>
+                <h3 className="text-lg font-bold text-stone-200 mb-3">{service.title}</h3>
+                <p className="text-stone-400 leading-relaxed text-sm">{service.description}</p>
               </div>
             ))}
           </div>
+
+          {/* 6.3 — Servicios Culturales */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-serif font-bold text-white mb-2">Servicios Culturales</h3>
+            <p className="text-stone-400 text-sm mb-8">Los ecosistemas también contribuyen al bienestar humano de maneras que van más allá de lo material.</p>
+            <div className="grid md:grid-cols-2 gap-5">
+              {[
+                {
+                  titulo: 'Educación e investigación',
+                  texto: 'El Jardín Botánico es un aula viva. Alberga información científica sobre especies nativas que es fuente de aprendizaje para estudiantes de todos los niveles, docentes e investigadores. La posibilidad de observar, identificar y estudiar plantas en su entorno natural es irremplazable.',
+                },
+                {
+                  titulo: 'Recreación y bienestar',
+                  texto: 'El contacto con la naturaleza tiene efectos documentados sobre la salud mental y física de las personas. Espacios verdes como el Jardín ofrecen un lugar de descanso, contemplación y conexión con el entorno, en contraste con la vida urbana cotidiana.',
+                },
+                {
+                  titulo: 'Identidad y patrimonio cultural',
+                  texto: 'Muchas de las especies del Jardín forman parte de la historia y la memoria colectiva de la región. El lapacho que tiñe las calles de rosa en invierno, el pindó sagrado de la cultura guaraní, el ycho que alimenta tradiciones ancestrales: la flora nativa es parte de quiénes somos como comunidad misionera.',
+                },
+                {
+                  titulo: 'Saberes tradicionales y etnobotánica',
+                  texto: 'Las comunidades mbya guaraní y las poblaciones locales han desarrollado durante siglos un conocimiento profundo sobre las plantas de la selva: sus usos medicinales, alimentarios, rituales y constructivos. Preservar estos saberes es también una forma de conservación cultural.',
+                },
+                {
+                  titulo: 'Inspiración y valor estético',
+                  texto: 'La selva es fuente de inspiración para el arte, la literatura y la fotografía. La biodiversidad de formas, colores y ciclos naturales que ofrece el Jardín tiene un valor estético que enriquece la vida de quienes la frecuentan.',
+                },
+              ].map(({ titulo, texto }) => (
+                <div key={titulo} className="bg-stone-800/60 rounded-2xl p-5 border border-stone-700">
+                  <h4 className="font-bold text-jungle-light mb-2 text-sm">{titulo}</h4>
+                  <p className="text-stone-400 text-sm leading-relaxed">{texto}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* 6.4 — Fuente */}
+          <p className="text-stone-600 text-xs leading-relaxed border-t border-stone-700 pt-6">
+            Fuente: Bentrup, G. (2008). <em>Zonas de amortiguamiento para conservación: Lineamientos para diseño de zonas de amortiguamiento, corredores y vías verdes</em> (Informe Técnico Gral. SRS-109). Departamento de Agricultura, Servicio Forestal, Estación de Investigación Sur. / Gonzalez, S., & Ghermandi, L. (2024). How to define the wildland-urban interface? <em>Frontiers in Environmental Science</em>, 11, 1284631.
+          </p>
         </div>
       </div>
 

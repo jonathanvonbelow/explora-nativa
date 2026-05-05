@@ -8,6 +8,15 @@ interface SpeciesModalProps {
   onClose: () => void;
 }
 
+const renderWithItalics = (text: string): React.ReactNode => {
+  const parts = text.split(/(\*[^*\n]+\*)/g);
+  return parts.map((part, i) =>
+    part.startsWith('*') && part.endsWith('*')
+      ? <em key={i}>{part.slice(1, -1)}</em>
+      : part
+  );
+};
+
 const SpeciesModal: React.FC<SpeciesModalProps> = ({ species, onClose }) => {
   const [activeTab, setActiveTab] = useState<'general' | 'science' | 'culture'>('general');
   const [panoramaOpen, setPanoramaOpen] = useState(false);
@@ -98,7 +107,14 @@ const SpeciesModal: React.FC<SpeciesModalProps> = ({ species, onClose }) => {
               <span className="text-xs text-stone-500 uppercase tracking-wider">{species.family}</span>
             </div>
             <h2 className="text-2xl font-serif font-bold text-white leading-tight">{species.commonName}</h2>
-            <p className="text-jungle-mid italic">{species.scientificName}</p>
+            <p className="text-jungle-mid">
+              {(() => {
+                const w = species.scientificName.split(' ');
+                const sci = w.slice(0, 2).join(' ');
+                const auth = w.slice(2).join(' ');
+                return <><em>{sci}</em>{auth ? ` ${auth}` : ''}</>;
+              })()}
+            </p>
           </div>
 
           {/* Navigation Tabs */}
@@ -123,7 +139,7 @@ const SpeciesModal: React.FC<SpeciesModalProps> = ({ species, onClose }) => {
                   {species.shortDescription}
                 </p>
                 <div className="text-stone-300 text-sm leading-relaxed whitespace-pre-line">
-                  {species.description}
+                  {renderWithItalics(species.description)}
                 </div>
               </div>
             )}

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SPECIES_DATA } from '../constants';
 import { Species } from '../types';
 import SpeciesModal from '../components/SpeciesModal';
+import { Smartphone } from 'lucide-react';
 
 const MapExplorer: React.FC = () => {
   const [selectedSpecies, setSelectedSpecies] = useState<Species | null>(null);
@@ -42,12 +43,21 @@ const MapExplorer: React.FC = () => {
 
       {/* ── Map area ── */}
       <div className="flex-1 overflow-auto custom-scrollbar bg-stone-950 relative">
+        {/* Orientation notice — visible on small screens */}
+        <div className="absolute top-2 left-1/2 -translate-x-1/2 z-10 flex md:hidden items-center gap-2 bg-stone-800/95 backdrop-blur text-stone-300 text-xs px-3 py-2 rounded-full border border-stone-700 whitespace-nowrap shadow-lg">
+          <Smartphone size={13} className="shrink-0" />
+          Girá tu teléfono para obtener una mejor visualización del mapa completo.
+        </div>
         <img
           src="/images/mapa.png"
           alt="Mapa Jardín Botánico Selva Misionera"
           className="w-full h-auto"
           draggable={false}
         />
+        {/* Footnote — cartographic reference */}
+        <p className="text-[10px] text-stone-500 px-4 py-3 border-t border-stone-800 leading-relaxed">
+          La demarcación del perímetro del espacio y el sendero fueron referenciados a partir del Trabajo Final del Proyecto de Intervención de la carrera Tecnicatura Universitaria en Sistemas de Información Geográfica y Teledetección, realizado por Carolina Erruvidarte.
+        </p>
 
         {/* Legend */}
         <div className="absolute bottom-4 left-4 bg-stone-900/90 backdrop-blur p-3 rounded-xl border border-stone-800 z-10">
