@@ -166,13 +166,23 @@ El laurel amarillo también tiene un papel importante en la restauración de amb
     commonName: 'Jacaratia',
     scientificName: 'Jacaratia spinosa (Aubl.) A. DC.',
     family: 'Caricaceae',
-    shortDescription: 'El único árbol comestible del mundo, pariente del mamón.',
+    shortDescription: 'El único árbol con madera comestible en la región.',
     description: `En la selva hay árboles que no solo ofrecen sombra y refugio, sino también alimento. Este es el caso del *Jacaratia*.
 
-Se lo conoce como el único árbol con madera comestible en la región, pertenece a la familia Caricaceae, la misma del mamón o papaya. También se lo conoce como papayón o mamoeiro-do-mato en Brasil. Se distribuye en selvas tropicales y subtropicales de América, desde Brasil, Paraguay y Argentina hasta Bolivia, Ecuador, Panamá, Costa Rica y Nicaragua.`,
+Se lo conoce como el único árbol con madera comestible en la región, pertenece a la familia Caricaceae, la misma del mamón o papaya. También se lo conoce como papayón o mamoeiro-do-mato en Brasil. Se distribuye en selvas tropicales y subtropicales de América, desde Brasil, Paraguay y Argentina hasta Bolivia, Ecuador, Panamá, Costa Rica y Nicaragua.
+
+Sus frutos recuerdan al mamón: carnosos, aromáticos y muy apreciados por la fauna del bosque. Aves y mamíferos se alimentan de ellos y ayudan a dispersar sus semillas. También las personas los han incorporado a su alimentación, utilizándolos para preparar mermeladas, dulces y compotas.
+
+En los últimos años, el interés científico por esta especie ha crecido. Estudios sobre el perfil químico del mismo revelan una riqueza notable en micronutrientes y enzimas, lo que ha llevado a considerarla como un posible superalimento. En particular, su fruto ha sido comparado en análisis nutricionales con la papaya cultivada (*Carica papaya*), destacando su potencial valor alimenticio.
+
+El *Jacaratia* guarda otra singularidad: sus tejidos contienen una gran cantidad de agua, por lo que su tronco no desarrolla una madera dura como la mayoría de los árboles. En lugar de ello posee una estructura blanda y fibrosa.
+
+Esta característica despertó el interés del ingeniero forestal Roberto Pascutti, docente de la Facultad de Ciencias Forestales de la Universidad Nacional de Misiones, quien a comienzos de la década de 1990 inició investigaciones inspiradas en antiguos manuscritos de las misiones jesuíticas.
+
+En esos documentos se mencionaba que algunos pueblos originarios consumían la médula de ciertos árboles durante épocas de escasez. Durante cinco años, Pascutti estudió el yacaratiá en la selva y en laboratorio hasta desarrollar un método que permite transformar su fibra vegetal en un alimento apto para la cocina contemporánea, con preparaciones tanto dulces como saladas.`,
     morphology: 'Entre 10 y 20 m de altura. Tronco claro y blando con estructura fibrosa rica en agua. Ramas con espinas características. Frutos carnosos y aromáticos similares al mamón. Especie pionera de crecimiento rápido.',
     culturalUse: `Mucho antes de que la ciencia explicara que el fruto fresco libera látex y enzimas proteolíticas, las comunidades guaraníes ya habían desarrollado una forma de procesarlo: lo cocinan bajo la ceniza caliente del fuego. El calor suave y constante de las brasas neutraliza estas sustancias sin destruir los azúcares y nutrientes, transformando el fruto en un dulce natural muy apreciado, especialmente por los niños. La estructura blanda del tronco también permite el desarrollo de larvas comestibles de curculiónidos, un recurso rico en proteínas. En la tradición guaraní existe una creencia: si un hombre que está por ser padre derriba un ejemplar de yacaratiá, su hijo podría nacer con los dedos deformes, semejantes a los brotes retorcidos que emite el tronco antes de descomponerse.`,
-    woodUse: 'Tronco blando y fibroso sin valor maderero convencional. Sin embargo, investigaciones de la UNaM desarrollaron un método para transformar su fibra vegetal en alimento apto para cocina contemporánea (dulce y salado).',
+    woodUse: 'Tronco blando y fibroso sin valor maderero convencional. Cumple también un papel ecológico importante ya que es una especie pionera de crecimiento rápido, capaz de establecerse en áreas abiertas o degradadas. Sus frutos fragantes atraen a animales dispersores de semillas, lo que favorece el regreso de otras especies vegetales y acelera el proceso de recuperación del bosque.',
     mapPosition: { x: 36.3, y: 64 },
     photos: [
       '/images/especies/jacaratia/1.JPG',

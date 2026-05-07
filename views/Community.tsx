@@ -474,7 +474,7 @@ const Community: React.FC = () => {
             Gestión y Producción Cultural de la Ciencia y la Tecnología dictado en la
             <span className="text-stone-200"> Universidad Nacional de Quilmes</span>.
           </p>
-          <p>Autora: <span className="text-stone-200">Melisa Jeanet Vega</span></p>
+          <p>Autora: <span className="text-stone-200">Lic. Melisa Jeanet Vega</span></p>
           <p>Director: <span className="text-stone-200">Mgter. Aníbal Rossi</span> (Universidad Nacional de Rosario)</p>
           <p>Co-director: <span className="text-stone-200">Dr. Luis Ritter</span> (Facultad de Ciencias Forestales — UNaM)</p>
           <p>WebDeveloper: <span className="text-stone-200">Dr. Jonathan von Below (Facultad de Ciencias Forestales - UNaM / Fundación Bariloche)</span></p>

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { SPECIES_DATA } from '../constants';
 import { Species } from '../types';
 import SpeciesModal from '../components/SpeciesModal';
-import { Smartphone } from 'lucide-react';
 
 const MapExplorer: React.FC = () => {
   const [selectedSpecies, setSelectedSpecies] = useState<Species | null>(null);
@@ -39,53 +38,58 @@ const MapExplorer: React.FC = () => {
   };
 
   return (
-    <div className="flex bg-stone-900" style={{ height: 'calc(100vh - 64px)' }}>
+    <div className="relative overflow-hidden bg-stone-900" style={{ height: 'calc(100vh - 64px)' }}>
 
-      {/* ── Map area ── */}
-      <div className="flex-1 overflow-auto custom-scrollbar bg-stone-950 relative">
-        {/* Orientation notice — visible on small screens */}
-        <div className="absolute top-2 left-1/2 -translate-x-1/2 z-10 flex md:hidden items-center gap-2 bg-stone-800/95 backdrop-blur text-stone-300 text-xs px-3 py-2 rounded-full border border-stone-700 whitespace-nowrap shadow-lg">
-          <Smartphone size={13} className="shrink-0" />
-          Girá tu teléfono para obtener una mejor visualización del mapa completo.
-        </div>
-        <img
-          src="/images/mapa.png"
-          alt="Mapa Jardín Botánico Selva Misionera"
-          className="w-full h-auto"
-          draggable={false}
-        />
-        {/* Footnote — cartographic reference */}
-        <p className="text-[10px] text-stone-500 px-4 py-3 border-t border-stone-800 leading-relaxed">
-          La demarcación del perímetro del espacio y el sendero fueron referenciados a partir del Trabajo Final del Proyecto de Intervención de la carrera Tecnicatura Universitaria en Sistemas de Información Geográfica y Teledetección, realizado por Carolina Erruvidarte.
-        </p>
-
-        {/* Legend */}
-        <div className="absolute bottom-4 left-4 bg-stone-900/90 backdrop-blur p-3 rounded-xl border border-stone-800 z-10">
-          <p className="text-[10px] text-stone-500 uppercase tracking-wider mb-2 font-bold">Referencias</p>
-          <div className="flex items-center gap-2 mb-1">
-            <div className="w-4 h-0.5 border-t border-dashed border-red-500/70"></div>
-            <span className="text-[10px] text-stone-400">Perímetro</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-4 h-0 border-t-2 border-dashed border-white/50"></div>
-            <span className="text-[10px] text-stone-400">Sendero</span>
-          </div>
-        </div>
+      {/* Portrait orientation notice — shown only in portrait mobile via CSS */}
+      <div className="map-orientation-notice">
+        <span className="rotate-icon">⟳</span>
+        <p>Girá tu teléfono para obtener una mejor visualización del mapa completo.</p>
       </div>
 
-      {/* ── Species sidebar ── */}
-      <div className="w-44 md:w-52 bg-stone-900 border-l border-stone-800 flex flex-col justify-center py-6 px-2 shrink-0">
-        <p className="text-[10px] font-bold text-stone-500 uppercase tracking-widest mb-4 text-center">
-          Hacé clic para explorar
-        </p>
-        <div className="grid grid-cols-2 gap-1">
-          {/* Columna 1: especies 1–5 */}
-          <div className="flex flex-col gap-1">
-            {col1.map(s => <SpeciesBtn key={s.id} species={s} />)}
+      {/* Map container — rotated 90° in portrait mobile via CSS */}
+      <div className="map-container flex bg-stone-900" style={{ height: '100%' }}>
+
+        {/* ── Map area ── */}
+        <div className="flex-1 overflow-auto custom-scrollbar bg-stone-950 relative">
+          <img
+            src="/images/mapa.png"
+            alt="Mapa Jardín Botánico Selva Misionera"
+            className="w-full h-auto"
+            draggable={false}
+          />
+          {/* Footnote — cartographic reference */}
+          <p className="text-[10px] text-stone-500 px-4 py-3 border-t border-stone-800 leading-relaxed">
+            La demarcación del perímetro del espacio y el sendero fueron referenciados a partir del Trabajo Final del Proyecto de Intervención de la carrera Tecnicatura Universitaria en Sistemas de Información Geográfica y Teledetección, realizado por Carolina Erruvidarte.
+          </p>
+
+          {/* Legend */}
+          <div className="absolute bottom-4 left-4 bg-stone-900/90 backdrop-blur p-3 rounded-xl border border-stone-800 z-10">
+            <p className="text-[10px] text-stone-500 uppercase tracking-wider mb-2 font-bold">Referencias</p>
+            <div className="flex items-center gap-2 mb-1">
+              <div className="w-4 h-0.5 border-t border-dashed border-red-500/70"></div>
+              <span className="text-[10px] text-stone-400">Perímetro</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-4 h-0 border-t-2 border-dashed border-white/50"></div>
+              <span className="text-[10px] text-stone-400">Sendero</span>
+            </div>
           </div>
-          {/* Columna 2: especies 6–10 */}
-          <div className="flex flex-col gap-1">
-            {col2.map(s => <SpeciesBtn key={s.id} species={s} />)}
+        </div>
+
+        {/* ── Species sidebar ── */}
+        <div className="w-44 md:w-52 bg-stone-900 border-l border-stone-800 flex flex-col justify-center py-6 px-2 shrink-0">
+          <p className="text-[10px] font-bold text-stone-500 uppercase tracking-widest mb-4 text-center">
+            Hacé clic para explorar
+          </p>
+          <div className="grid grid-cols-2 gap-1">
+            {/* Columna 1: especies 1–5 */}
+            <div className="flex flex-col gap-1">
+              {col1.map(s => <SpeciesBtn key={s.id} species={s} />)}
+            </div>
+            {/* Columna 2: especies 6–10 */}
+            <div className="flex flex-col gap-1">
+              {col2.map(s => <SpeciesBtn key={s.id} species={s} />)}
+            </div>
           </div>
         </div>
       </div>
