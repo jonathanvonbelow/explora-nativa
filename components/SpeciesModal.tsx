@@ -27,8 +27,8 @@ const SpeciesModal: React.FC<SpeciesModalProps> = ({ species, onClose }) => {
 
   return (
     <>
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
-      <div className="bg-stone-900 w-full max-w-4xl max-h-[90vh] rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row relative border border-stone-800">
+    <div className="fixed inset-0 z-[60] flex items-center justify-center p-2 md:p-4 bg-black/80 backdrop-blur-md">
+      <div className="bg-stone-900 w-full max-w-4xl max-h-[96dvh] md:max-h-[90dvh] rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row relative border border-stone-800">
 
         {/* Close Button */}
         <button
@@ -39,15 +39,14 @@ const SpeciesModal: React.FC<SpeciesModalProps> = ({ species, onClose }) => {
         </button>
 
         {/* Left Side: Image viewer */}
-        <div className="w-full md:w-1/2 bg-stone-950 relative flex flex-col border-r border-stone-800" style={{ minHeight: '280px' }}>
+        <div className="w-full md:w-1/2 h-[36vh] md:h-auto md:min-h-[280px] shrink-0 md:shrink bg-stone-950 relative flex flex-col md:border-r border-stone-800">
           {/* Main photo */}
-          <div className="flex-1 relative overflow-hidden">
+          <div className="flex-1 min-h-0 relative overflow-hidden">
             <img
               key={photoIndex}
               src={species.photos[photoIndex]}
               alt={`${species.commonName} - foto ${photoIndex + 1}`}
-              className="w-full h-full object-cover"
-              style={{ minHeight: '200px' }}
+              className="absolute inset-0 w-full h-full object-cover"
             />
             {/* Navigation arrows */}
             {species.photos.length > 1 && (
@@ -97,16 +96,16 @@ const SpeciesModal: React.FC<SpeciesModalProps> = ({ species, onClose }) => {
         </div>
 
         {/* Right Side: Content */}
-        <div className="w-full md:w-1/2 flex flex-col bg-stone-900 max-h-[60vh] md:max-h-full text-stone-200">
+        <div className="w-full md:w-1/2 flex flex-col bg-stone-900 min-h-0 md:max-h-full text-stone-200">
           {/* Header */}
-          <div className="p-5 border-b border-stone-800 bg-stone-900/50">
+          <div className="px-5 py-3 md:p-5 border-b border-stone-800 bg-stone-900/50 shrink-0">
             <div className="flex items-center gap-2 mb-1">
               <span className="text-xs font-bold bg-jungle-dark text-jungle-light px-2 py-0.5 rounded-full border border-jungle-mid/40">
                 #{species.mapNumber}
               </span>
               <span className="text-xs text-stone-500 uppercase tracking-wider">{species.family}</span>
             </div>
-            <h2 className="text-2xl font-serif font-bold text-white leading-tight">{species.commonName}</h2>
+            <h2 className="text-xl md:text-2xl font-serif font-bold text-white leading-tight">{species.commonName}</h2>
             <p className="text-jungle-mid">
               {(() => {
                 const w = species.scientificName.split(' ');

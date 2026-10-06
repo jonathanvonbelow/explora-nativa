@@ -260,7 +260,7 @@ const Community: React.FC = () => {
                     <User size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-500" />
                     <input
                       type="text"
-                      className="w-full pl-9 pr-3 py-2.5 bg-stone-950 border border-stone-700 rounded-lg focus:ring-2 focus:ring-amber-600 focus:outline-none text-stone-200 placeholder-stone-600 text-sm"
+                      className="w-full pl-9 pr-3 py-2.5 bg-stone-950 border border-stone-700 rounded-lg focus:ring-2 focus:ring-amber-600 focus:outline-none text-stone-200 placeholder-stone-600 text-base md:text-sm"
                       placeholder="Ej: María González"
                       value={authorInput}
                       maxLength={60}
@@ -271,7 +271,7 @@ const Community: React.FC = () => {
                 <div>
                   <label className="block text-xs font-bold text-stone-500 uppercase tracking-wider mb-1">Tu mensaje</label>
                   <textarea
-                    className="w-full p-3 bg-stone-950 border border-stone-700 rounded-lg focus:ring-2 focus:ring-amber-600 focus:outline-none resize-none h-28 text-stone-200 placeholder-stone-600 text-sm"
+                    className="w-full p-3 bg-stone-950 border border-stone-700 rounded-lg focus:ring-2 focus:ring-amber-600 focus:outline-none resize-none h-28 text-stone-200 placeholder-stone-600 text-base md:text-sm"
                     placeholder="¿Qué aprendiste? ¿Conocés algún uso medicinal de estas especies?"
                     value={textInput}
                     maxLength={500}

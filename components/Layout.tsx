@@ -57,18 +57,18 @@ const Layout: React.FC<LayoutProps> = ({ children, activeView, onNavigate }) => 
       </nav>
 
       {/* Content */}
-      <main className="flex-1">
+      <main className="flex-1 pb-16 md:pb-0">
         {children}
       </main>
 
       {/* Mobile Bottom Nav */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 bg-stone-900 border-t border-stone-800 z-50 pb-safe">
-        <div className="flex justify-around items-center p-2">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 bg-stone-900 border-t border-stone-800 z-50">
+        <div className="flex justify-around items-stretch h-16">
           {navItems.map((item) => (
             <button
               key={item.id}
               onClick={() => onNavigate(item.id)}
-              className={`flex flex-col items-center p-2 w-full transition-colors
+              className={`flex flex-col items-center justify-center w-full transition-colors
                 ${activeView === item.id ? 'text-jungle-mid' : 'text-stone-500'}`}
             >
               <item.icon size={24} />

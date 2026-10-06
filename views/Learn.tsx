@@ -129,7 +129,7 @@ const Learn: React.FC = () => {
       </div>
 
       {/* ── Sección 3: Servicios Ecosistémicos ── */}
-      <div className="max-w-5xl mx-auto bg-stone-900 rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden border border-stone-800 mb-20">
+      <div className="max-w-5xl mx-auto bg-stone-900 rounded-3xl p-5 md:p-12 shadow-2xl relative overflow-hidden border border-stone-800 mb-20">
         <div className="absolute top-0 right-0 w-64 h-64 bg-jungle-mid rounded-full mix-blend-overlay filter blur-[80px] opacity-20 -translate-y-1/2 translate-x-1/2 pointer-events-none" />
         <div className="relative z-10">
           <h2 className="text-3xl font-serif font-bold text-center text-white mb-10">Servicios Ecosistémicos</h2>

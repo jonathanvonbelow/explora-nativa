@@ -18,7 +18,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
   return (
     <div className="flex flex-col min-h-screen bg-stone-950">
       {/* Hero Section */}
-      <section className="relative h-[85vh] flex items-center justify-center overflow-hidden bg-stone-950">
+      <section className="relative min-h-[85vh] py-12 flex items-center justify-center overflow-hidden bg-stone-950">
         
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
@@ -34,7 +34,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         </div>
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-2xl">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-2xl">
             Explora Nativa
           </h1>
           <p className="text-base md:text-lg text-stone-300 mb-10 max-w-3xl mx-auto font-light drop-shadow-md leading-relaxed">
@@ -42,7 +42,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           </p>
           <button 
             onClick={() => onNavigate('map')}
-            className="group bg-jungle-mid hover:bg-jungle-light hover:text-jungle-dark text-white text-lg font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(5,150,105,0.3)] flex items-center gap-3 mx-auto transform hover:scale-105 border border-white/10"
+            className="group bg-jungle-mid hover:bg-jungle-light hover:text-jungle-dark text-white text-base md:text-lg font-bold py-4 px-6 md:px-10 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(5,150,105,0.3)] flex items-center gap-3 mx-auto transform hover:scale-105 border border-white/10"
           >
             Comenzar Recorrido Virtual
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
@@ -114,10 +114,10 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
                             className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-90"></div>
-                        <div className="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                        <div className="absolute bottom-0 left-0 p-6 md:translate-y-4 md:group-hover:translate-y-0 transition-transform duration-300">
                             <p className="text-jungle-mid font-bold text-sm tracking-wider mb-1 uppercase">{species.family}</p>
                             <h3 className="text-2xl font-bold mb-2 text-white">{species.commonName}</h3>
-                            <p className="text-stone-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                            <p className="text-stone-300 text-sm md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                 {species.shortDescription}
                             </p>
                         </div>
